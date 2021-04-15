@@ -12,14 +12,14 @@ A  B  C  |  Y
 1  1  0  |  0
 1  1  1  |  1
 
-Boolean: A'D + AC' + C'D
+Boolean: A' + B' + ABC
 */
 
-module ligh_switch_logic (
-    input logic a, c, d, 
+module light_switch_logic (
+    input logic a, b, c, 
     output logic y
 );
 
-    assign y = ~a & d | a & ~c | ~c & d ; 
+    assign y = ~a | ~b | a & b & c; 
 
 endmodule 
