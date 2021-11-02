@@ -2,6 +2,6 @@
 
 textbook: [Digital Design and Computer Architecture: ARM Edition](https://www.amazon.com.tr/Digital-Design-Computer-Architecture-ARM/dp/0128000562)
 
-Codding Language: VHDL
+Codding Language: System Verilog
 
 Software: Modelsim / Quartus Prime 
